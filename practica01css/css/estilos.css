@@ -1,0 +1,97 @@
+body{
+    /* border: 1px solid rebeccapurple; */
+    font-size: 16px; /*1em*/
+    max-width: 1024px;
+    margin: 0px auto;
+}
+
+header  {
+    background: #d1e3ee;
+}
+header nav{
+    background: #026dc6;
+    border-radius: 5px;
+    padding: 2px 0px;
+    margin: 0px auto;
+    width: 99%;
+}
+
+header nav form{
+    float: right;
+    margin-right: 20px;
+    margin-top: -35px;
+}
+header nav form input{
+    border-radius: 5px;
+}
+
+header nav form input[type="submit"]{
+    background: green;
+    border: 1px solid green;
+    color: white;
+}
+
+header nav ul li{
+   /* border: 1px solid red;        */           
+    color: white;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#logo{margin-top: -150px;}
+
+#seccion01{
+    margin-top: 15px;
+}
+
+#seccion01 article{
+    text-align: center;
+}
+
+#seccion01 article img {
+    width: 98%;
+   border: 5px solid rgba(150,150,150,0.5); 
+}
+
+#seccion2{
+    margin-bottom: 50px;
+}
+
+#seccion02 article{
+   /* border: 1px solid blue; */
+    width:  33.0%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#seccion02 article input[type="submit"]{
+background: white;
+color: blue;
+border-radius: 5px;
+margin-left: 130px;
+padding: 5px;
+}
+
+.nito {
+    font-weight: bold;
+}
+
+.otraSeccion{
+    font-size: 2.5em;
+}
+
+.unaSeccion{
+    font-size: 4.5em; /* <-- 4.5 x   */
+}
+
+
+/*
+selectores
+    etiquetas
+    identificadores
+    clases
+    pseudoelemntos
+
+    Margin 10 5 3 6 arriba derecha abajo izq aplica para ambos
+    Padding20 px
+*/
